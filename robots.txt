@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://3amdesk.github.io/sitemap.xml
