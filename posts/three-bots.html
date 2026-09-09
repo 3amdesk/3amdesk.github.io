@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>봇 하나에 회사를 다 넣었더니, 냉동 창고 온도가 돌아왔습니다 · 새벽세시</title>
+<meta name="description" content="제가 자는 동안 회사가 일합니다">
+<meta property="og:title" content="봇 하나에 회사를 다 넣었더니, 냉동 창고 온도가 돌아왔습니다 · 새벽세시">
+<meta property="og:description" content="제가 자는 동안 회사가 일합니다">
+<meta property="og:type" content="article">
+<style>
+:root { --fg:#24292f; --dim:#57606a; --line:#d8dee4; --bg:#fff; --accent:#0969da; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg);
+  font-family:-apple-system,'Segoe UI','Malgun Gothic',sans-serif;
+  font-size:17px; line-height:1.85; word-break:keep-all; }
+.wrap { max-width:720px; margin:0 auto; padding:0 20px 80px; }
+header.site { border-bottom:1px solid var(--line); margin-bottom:44px; padding:44px 0 28px; }
+header.site h1 { margin:0 0 6px; font-size:26px; letter-spacing:-.5px; }
+header.site h1 a { color:var(--fg); text-decoration:none; }
+header.site .tagline { color:var(--dim); font-size:15px; margin:0 0 14px; }
+header.site .bio { color:var(--dim); font-size:14.5px; margin:0; line-height:1.75; }
+article h1 { font-size:29px; line-height:1.45; letter-spacing:-.5px; margin:0 0 10px; }
+article h2 { font-size:21px; margin:52px 0 14px; padding-top:4px; letter-spacing:-.3px; }
+article .meta { color:var(--dim); font-size:14px; margin:0 0 40px; }
+article p { margin:0 0 22px; }
+article strong { font-weight:600; }
+article ul, article ol { margin:0 0 22px; padding-left:22px; }
+article li { margin:0 0 8px; }
+article img { max-width:100%; border:1px solid var(--line); border-radius:8px; margin:8px 0 6px; }
+article blockquote { margin:0 0 22px; padding:2px 0 2px 18px; border-left:3px solid var(--line); color:var(--dim); }
+article hr { border:0; border-top:1px solid var(--line); margin:48px 0 28px; }
+article em { color:var(--dim); font-style:normal; font-size:15px; }
+.index-item { padding:22px 0; border-bottom:1px solid var(--line); }
+.index-item a { color:var(--fg); text-decoration:none; font-size:19px; font-weight:600; letter-spacing:-.3px; }
+.index-item a:hover { color:var(--accent); }
+.index-item .d { color:var(--dim); font-size:13.5px; margin-top:6px; }
+footer.site { margin-top:64px; padding-top:22px; border-top:1px solid var(--line);
+  color:var(--dim); font-size:14px; }
+footer.site a { color:var(--dim); }
+.cta { margin:56px 0 0; padding:22px 22px 6px; border:1px solid var(--line); border-radius:10px; background:#fafbfc; }
+.cta h2 { margin:0 0 10px; font-size:17px; letter-spacing:-.3px; }
+.cta p { margin:0 0 14px; font-size:15px; line-height:1.8; color:var(--dim); }
+.cta a.go { display:inline-block; margin-bottom:16px; padding:10px 16px; border-radius:8px;
+  background:var(--accent); color:#fff; text-decoration:none; font-size:15px; font-weight:600; }
+.back { display:inline-block; margin-bottom:32px; color:var(--dim); text-decoration:none; font-size:14px; }
+.back:hover { color:var(--accent); }
+@media (max-width:600px){ body{font-size:16.5px;} article h1{font-size:24px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<h1><a href="/">새벽세시</a></h1>
+<p class="tagline">제가 자는 동안 회사가 일합니다</p>
+
+</header>
+<a class="back" href="/">← 목록</a>
+<article>
+<h1>봇 하나에 회사를 다 넣었더니, 냉동 창고 온도가 돌아왔습니다</h1>
+<p class="meta">2026-09-09</p>
+<p>7월 22일 낮 12시 14분. 폰으로 봇에게 냉장 제품 주문량을 물었고 답을 받았습니다. 이어서 "냉동은 어느 정도 써?"라고 짧게 물었습니다. 돌아온 답은 냉동창고 온도였습니다. 영하 20도 안팎, 이상 없음.</p>
+<p>틀린 답은 아닙니다. 물은 게 아니었을 뿐입니다.</p>
+<p><img alt="대화 재현 — 7월 22일" src="/assets/case5_reset.png" /></p>
+<h2>여섯 번째 대화에서 기억이 지워졌습니다</h2>
+<p>봇은 속도를 위해 여섯 번 대화할 때마다 기억을 비우게 돼 있었습니다. 주문량 답이 여섯 번째였고, "냉동은?"이 일곱 번째였습니다. 새 기억으로 시작한 봇에게 남은 단어는 "냉동" 하나였고, 회사 규칙집에서 그 단어가 걸리는 항목은 창고 온도였습니다. 사람이면 "아까 그 얘기"로 알아듣는 걸, 기계는 문맥이 0이면 규칙집을 뒤집니다.</p>
+<p>이틀에 걸쳐 넷을 고쳤습니다. 기억 비우는 주기를 여섯에서 열로. 비울 때 직전 문답 한 쌍은 남기기. 사진만 먼저 오면 30초 기다렸다가 뒤따르는 질문과 묶기. 주제가 바뀐 질문은 새 서랍으로 자동 분리하기.</p>
+<h2>그런데 진짜 원인은 방이 하나였다는 것</h2>
+<p>고치고 나서 보니 봇 하나에 서랍이 열아홉 개였습니다. 회사 매출, 창고 온도, 수입 서류, 그리고 제 항공권 마일리지까지 한 방에 있었습니다. 어느 서랍을 열지 맞히는 정확도가 떨어질 수밖에 없었습니다.</p>
+<p>7월 31일에 봇을 둘로 나눴습니다. 회사 일 하나, 개인 일 하나. 나누는 데 든 건 개인 업무 스크립트 열세 개 맨 위에 "알림은 개인 봇으로"라는 한 줄을 넣은 것이 전부였습니다.</p>
+<p>더 잘게 나누자는 안은 그날 기각했습니다. 매출은 재무인지 판매인지, 경계가 겹치는 순간 "어느 봇에 말하지"가 새 비용이 됩니다.</p>
+<h2>세 번째 봇, 그리고 27분</h2>
+<p>8월 18일에 세 번째를 붙였습니다. 이번엔 업무가 아니라 성격으로 나눴습니다. 굴리는 일과 만드는 일. 새 자동화를 만드는 대화는 길고 실험적이라, 운영 봇의 짧은 명령들과 섞이면 서로를 밀어냅니다. 이 경계는 겹치지 않습니다.</p>
+<p><img alt="봇 세 대의 분장" src="/assets/case5_bots.png" /></p>
+<p>같은 날 사고가 났습니다. 봇을 재시작하라고 시켰는데, 그 명령이 한 봇의 자식 프로세스로 실행되면서 새로 뜬 것도 그 봇의 일꾼이 됐습니다. 그 봇은 멀쩡히 답했고, 나머지 둘은 27분 동안 조용했습니다. 하나였을 때는 "다 죽었다"가 전부였는데, 셋이 되니 "일부만 죽었는데 모른다"가 생겼습니다.</p>
+<p><img alt="재시작 사고 — 8월 18일" src="/assets/case5_restart.png" /></p>
+<p>재시작 명령이 부모의 환경을 물려받지 않게 고쳤고, 기동 확인에 "일꾼 셋이 다 살아 있나"를 넣었습니다.</p>
+<h2>2월에 못 넘긴 그 등록 업무</h2>
+<p>지난 글에서 미뤄 둔 이야기입니다. 파일은 만드는데 화면에 올리지 못하던 매주 할인 행사 등록은 지금 사람 손 없이 돕니다. 다만 완전히 맡기진 않았습니다. 7월 말에 한 줄을 더 넣었습니다. 할인 폭이 정해진 선을 넘는 건이 있으면 등록 전에 멈추고 저에게 묻습니다. 틀리면 돈이 나가는 자리라, 멈추는 지점 하나는 남겨 뒀습니다.</p>
+<h2>배운 것</h2>
+<p><strong>하나. 봇을 나누는 기준은 업무가 아니라 경계입니다.</strong> 경계가 겹치면 사람이 판단 비용을 냅니다. 겹치지 않는 경계(회사와 개인, 굴리기와 만들기)만 나눴습니다.</p>
+<p><strong>둘. 나누면 고장의 모양이 바뀝니다.</strong> 전부 멈추는 고장은 눈에 띕니다. 일부만 멈추는 고장은 안 띕니다. 나눈 날 감시도 같이 나눠야 합니다.</p>
+<p>다음 글은 그 "안 띄는 고장"을 잡으려고 만든 장치들, 실패 원장과 작업 러너와 워치독 이야기입니다.</p>
+<hr />
+<p><em>이 글의 시각과 날짜는 봇 로그와 코드 변경 기록에서 확인했습니다. 화면은 실제 캡처가 아니라 로그를 바탕으로 다시 그린 것입니다. 이 조사와 초안 작성은 지금 회사를 돌리고 있는 AI가 했습니다.</em></p>
+</article>
+<div class="cta">
+<h2>회사에서 반복되는 일 하나</h2>
+<p>무엇이 매번 반복되는지 한두 줄로 적어 보내주시면, 자동으로 돌릴 수 있는 일인지 먼저 답을 드립니다. 안 맞는 일이면 안 맞는다고 답합니다.</p>
+<p><a class="go" href="mailto:3amdesk@gmail.com?subject=%EB%B0%98%EB%B3%B5%EC%97%85%EB%AC%B4%20%EB%AC%B8%EC%9D%98">메일로 물어보기</a></p>
+<p><a class="go" href="https://kmong.com/gig/812074">의뢰 페이지 보기</a></p></div>
+<footer class="site">
+<p>새벽세시 · 연락 <a href="mailto:3amdesk@gmail.com">3amdesk@gmail.com</a></p>
+<p>본문의 화면은 실제 출력이며, 회사·거래처·금액은 지운 뒤 다시 그린 것입니다.</p>
+</footer>
+</div>
+<script data-goatcounter="https://3amdesk.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
